@@ -1,0 +1,51 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/student.DESKTOP-N01B4AU/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/student.DESKTOP-N01B4AU/Downloads/mavenproject1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/student.DESKTOP-N01B4AU/Downloads/mavenproject1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'mavenproject1 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/student.DESKTOP-N01B4AU/Downloads/mavenproject1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'mavenproject1 1.0-SNAPSHOT API'
+com.mycompany.mavenproject1
+C:\Users\student.DESKTOP-N01B4AU\.m2\repository\javax\javaee-web-api\6.0\javaee-web-api-6.0.jar = 1728467959758
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\src\main\java = 1727862910251
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\allclasses-index.html = 1728467976052
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\allpackages-index.html = 1728467976056
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\copy.svg = 1728467976121
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\element-list = 1728467975944
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\help-doc.html = 1728467976117
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\index-all.html = 1728467976078
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\index.html = 1728467976100
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\link.svg = 1728467976122
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\member-search-index.js = 1728467976061
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\module-search-index.js = 1728467976057
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\overview-tree.html = 1728467976026
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\package-search-index.js = 1728467976058
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\script.js = 1728467976119
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\search-page.js = 1728467976126
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\search.html = 1728467976085
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\search.js = 1728467976125
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\serialized-form.html = 1728467975993
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\stylesheet.css = 1728467976118
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\tag-search-index.js = 1728467976062
+C:\Users\student.DESKTOP-N01B4AU\Downloads\mavenproject1\target\reports\apidocs\type-search-index.js = 1728467976060
