@@ -13,16 +13,16 @@ import java.io.Serializable;
 public class LoanBean implements Serializable {
     private double kwota;
     private double oprocentowanie;
-    private double lrat;
+    private double nrat;
     
     public double getRata() throws Exception {
-        double p = oprocentowanie / 12;
+        double p = (oprocentowanie/100) / 12;
         
-        if(kwota  < 0 || oprocentowanie < 0 || lrat < 0) {
+        if(kwota  < 0 || oprocentowanie < 0 || nrat < 0) {
             throw new Exception("values are smaller than 0");
         }
-        double res = (kwota*(p/12)) / (1 - (1 / Math.pow((1 + p), lrat)));
-        System.out.println(kwota + " " + oprocentowanie + " " + lrat);
+        double res = (kwota*p) / (1 - (1 / Math.pow((1 + p), nrat)));
+        System.out.println(kwota + " " + oprocentowanie + " " + nrat);
         return res;
     }
     
@@ -46,12 +46,12 @@ public class LoanBean implements Serializable {
     
     
 
-    public double getLrat() {
-        return lrat;
+    public double getNrat() {
+        return nrat;
     }
 
-    public void setLrat(double lrat) {
-        this.lrat = lrat;
+    public void setNrat(double lrat) {
+        this.nrat = lrat;
     }
     
     

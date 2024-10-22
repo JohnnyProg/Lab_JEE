@@ -5,6 +5,7 @@
 --%>
 
 <%@page import="java.text.DateFormat"%>
+<%@page import="java.text.DecimalFormat"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8" errorPage="errorPage.jsp"%>
@@ -36,8 +37,8 @@
             <input id="nrat" type="number" name="nrat"/><!-- comment -->
             <button type="submit" name="wyslij">Oblicz</button>
         </form>
-        
-        <%= loan.getRata() %>
+        <% DecimalFormat format = new DecimalFormat("####.##");%>
+        <%= format.format(loan.getRata()) %>
 
         
     </body>
