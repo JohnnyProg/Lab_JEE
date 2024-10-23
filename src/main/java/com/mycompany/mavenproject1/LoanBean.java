@@ -18,7 +18,7 @@ public class LoanBean implements Serializable {
     public double getRata() throws Exception {
         double p = (oprocentowanie/100) / 12;
         
-        if(kwota  < 0 || oprocentowanie < 0 || nrat < 0) {
+        if(kwota  <= 0 || oprocentowanie <= 0 || nrat <= 0) {
             throw new Exception("values are smaller than 0");
         }
         double res = (kwota*p) / (1 - (1 / Math.pow((1 + p), nrat)));
