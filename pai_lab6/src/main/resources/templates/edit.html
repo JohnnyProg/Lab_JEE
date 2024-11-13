@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head th:include="layout :: head"></head>
+<body>
+<div th:include="layout :: navigationPanel"></div>
+
+<h1>Edit Profile</h1>
+
+<form th:action="@{/profile/edit}" th:object="${user}" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" th:field="*{name}" required />
+
+  <label for="surname">Surname:</label>
+  <input type="text" id="surname" th:field="*{surname}" required />
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" th:field="*{password}" placeholder="Enter new password if changing" />
+
+  <button type="submit">Save Changes</button>
+</form>
+
+<div th:include="layout :: footer"></div>
+</body>
+</html>
