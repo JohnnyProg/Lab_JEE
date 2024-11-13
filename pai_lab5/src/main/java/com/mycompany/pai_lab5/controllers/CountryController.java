@@ -11,18 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/countries")
 public class CountryController {
 
     @Autowired
     private CountryRepository repo;
 
-    @GetMapping("/byContinent")
+    @RequestMapping("/byContinent")
     public List<Country> getCountriesByContinent(@RequestParam String continent) {
         return repo.findByContinent(continent);
     }
 
-    @GetMapping("/byPopulationBetween")
+    @RequestMapping("/byPopulationBetween")
     public List<Country> getCountriesByPopulationBetween(@RequestParam long min, @RequestParam long max) {
         return repo.findByPopulationBetween(min, max);
     }
